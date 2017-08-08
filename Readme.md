@@ -22,7 +22,7 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037924-52d1116c-7bae-11e7-9578-341106737d80.jpg">
 
-Получится вот так:
+Получится вот так::
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037925-53c705e0-7bae-11e7-8a3f-bad04e33575e.jpg">
 
