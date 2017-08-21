@@ -19,17 +19,17 @@
         <div class="user-navigation">
           <a href="basket.html">Корзина</a></li>
         </div>
-        <h1 class="vissually-hidden">
+        <h1 class="vissually-hidden">Веб-студия Нердс</h1>
           <section class="slider">
-            <div class="slider-container">
+            <div class="container">
               <input type="radio" id="btn-1" class="visually-hidden" name="slider-toggle" checked>
               <input type="radio" id="btn-2" class="visually-hidden" name="slider-toggle">
               <input type="radio" id="btn-3" class="visually-hidden" name="slider-toggle">
-                <div class="slider-controls">
-                  <label for="btn-1"></label>
-                  <label for="btn-2"></label>
-                  <label for="btn-"></label>
-                </div>
+              <div class="slider-controls">
+              <label for="btn-1"></label>
+              <label for="btn-2"></label>
+              <label for="btn-"></label>
+              </div>
             </div>
             <div class="slide">
               <b>Долго, дорого,</br> скрупулезно.</b>
@@ -54,7 +54,7 @@
         <div class="services">
           <article class="services-item">
             <img="img/services-item-1.jpg" width="220" height="165" alt="Веб сайты">
-            <b class="services-item-title">Веб сайты</b>
+            <b class="services-title">Веб сайты</b>
             <p>Мир никогда не будет прежним после того как увидит ваш сайт</p>
             <a class="btn btn-red">Заказать</a>
           </article>
@@ -74,7 +74,7 @@
       </div>
       <div class="about">
         <div class="container">
-          <div class="about-part">
+          <div class="about-title">
             <b>Мы-маленькая, но гордая дизайн-студия из Краснодара.</b>
             <p>Исповедуем принципы минимализма и честоты.Ставим математический расчет
              повыше креатива. Работаем не покладая рук, как роботы.</p>
@@ -114,31 +114,55 @@
     </main>
     <footer class="main-footer">
       <div class="map">
-        <div class="modal-search">
-          <div class="footer-wrapper">
-            <div class="contacts">
-              <b class="contacts-title">Nerds design studio</b>
-              <p class="contacts-text">191186 Cанкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
-              <p class="contacts-text">тел. +7(812)275-75-75</p>
-              <a class="map-btn" href="nerds.html">Напишите нам</a>
-            </div>
+        <div class="container">
+          <div class="contacts">
+            <b>NЁRDS DESIGN STUDIO</b>
+            <p>
+               191186, Санкт-Петербург,
+               ул. Б. Конюшенная, д.19/8
+            </p>
+            <p>
+               тел. +7(812)275-75-75
+            </p>
+            <a class="btn write-us" href="#">Напишите нам</a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="social">
+            <a class="social-btn social-btn-vk" href="#"></a>
+            <a class="social-btn social-btn-fb" href="#"></a>
+            <a class="social-btn social-btn-inst" href="#"></a>
+          </div>
+          <div class="footer-friends">
+            <b>Давайте дружить, это выгодно!</b>
+            <p>Скидка 10% для друзей из социальных сетей</p>
           </div>
         </div>
       </div>
-      <div class="social">
-        <div class="social-link">
-          <a href="#" class="social-link-vk"></a>
-          <a href="#" class="social-link-fb"></a>
-          <a href="#" class="social-link-inst"></a>
-        </div>
-      </div>
-      <div class="contacts-modal">
-        <b class="contacts-modal-title">Давайте дружить, это выгодно!</b>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
-      </div>
     </footer>
+    <div class="contacts-popup">
+      <b class="contacts-popup-title">Напишите нам</b>
+      <button class="contacts-popup-close"></button>
+      <form class="form" action="/echo" method="post">
+        <div class="popup-part">
+          <label for="name">Ваше имя:</label>
+          <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="popup-part">
+          <label for="email">Ваш e-mail:</label>
+          <input type="email" name="email" id="email" placeholder="Для отправки ответа">
+        </div>
+        <div class="popup-part">
+          <label for="message">Текст письма:</label>
+          <textarea name="message" id="message" placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="btn" type="submit">Отправить</button>
+      </form>
+    </div>
   </body>
 </html>
+  | 
+
 
 
 
